@@ -1,0 +1,31 @@
+.shelf {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.book {
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+}
+
+.book img {
+  width: 200px;
+  height: 250px;
+}
+
+.book p {
+  display: block;
+  width: 150px;
+  height: 40px;
+  color: grey;
+}
+
+.book select {
+  border-radius: 4px;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
